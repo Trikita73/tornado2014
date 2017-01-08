@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <title>Tornado</title>
+	    <meta charset="utf-8">
+	    <link rel="stylesheet" type="text/css" href="css/main.css">
+    </head>
+    <body>
+          <div id="cont" class="b3radius">
+          	<div id="header">
+              <div class="header_cont">
+                <!-- Логотип -->
+                <h1><a href="#"><span style="color: #21bed4">Tornado</span></a></h1>
+                <!-- Регестрация -->
+                <div class="member">
+                  <ul>
+                    <li><a href="#">Войти</a></li>
+                    <li>или</li>
+                    <li><a href="#">Зарегестрироватся</a></li>
+                  </ul>
+                </div>  
+                <div class="h1description">Hookah shop</div>
+                <!-- Поиск -->
+                  <div class="search_ds f_right">
+                    <form method="" action="">
+                      <a href="#"><img src="images/search.png" alt="Поиск по сайту" width="29" class="search_img f_right"></a>
+                      <input type="text" name="topsearch" placeholder="Поиск" class="b3radius">
+                    </form>
+                  </div>
+                  <!-- Корзинка -->
+                  <div class="buy_sb f_right"></div>
+                  <div class="buy_ticket f_right">
+                    <b><h4>Корзина покупок</h4></b>
+                    <span style="font-size: 16px; color: #277e51; padding: 0 6px;;">Товаров: 0 <span style="color: red; margin-left: 0px;">(0.00)<span class="cursor_img"></span></span></span>
+                  </div>
+              </div>
+              <!-- Меню -->
+              <div id="menu_css">
+                <div class="menu">
+                	<ul>
+                		<li><a href="#">Кальяны и аксессуары</a></li>
+                		<li><a href="#">Аренда кальянов</a></li>
+                		<li><a href="#">Сотрудничество</a></li>
+                		<li><a href="#">Кейтеринг</a></li>
+                		<li><a href="#">Контакты</a></li>
+                		<li style="border-right: none; ;"><a href="#">Доставка и оплата</a></li>
+                	</ul>
+                </div>
+              </div>
+                <!-- Баннер -->
+                <div class="banner"></div>
+                <!-- Магазин -->
+                <div class="box">
+                  <div class="store">
+                    <div class="store_hat">
+                      <ul>
+                        <li><h2>Рекомендуем</h2></li>
+                      </ul>
+                    </div>
+                      <div class="box-content">
+                        <div class="box-product">
+                          <div>
+                            <div class="image">
+                              <a href="#"><img src="images/moxito.png" alt="Serbetli Мохито 50г"></a>
+                              <div class="about"> image1 </div>
+                            </div>
+                            <div class="name">
+                              <a href="#">Serbetli Мохито 50г</a>
+                            </div> 
+                            <div class="price">
+                              45.00
+                            </div>
+                            <div class="cart">
+                              <input type="button" value="Купить" onclick="addToCart('310');" class="button">
+                            </div> 
+                          </div>
+                          <div>
+                            <div class="image">
+                              <a href="#"><img src="images/blackMP.png" alt="SB Black Peach Mist 250g"></a>
+                              <div class="about"> image2 </div>
+                            </div>
+                            <div class="name">
+                              <a href="#">SB Black Peach Mist 250g</a>
+                            </div>
+                            <div class="price">
+                              448.00
+                            </div>
+                            <div class="cart">
+                              <span style="color: #7accc8; font-size: 16px;">
+                                <span class="outofstock">Нет на складе</span>
+                              </span>
+                            </div>
+                          </div>
+                          <div>
+                            <div class="image">
+                              <a href="#"><img src="images/fresh.png" alt="Fumari Tutti Fruitti 100g"></a>
+                              <div class="about"> images3 </div>
+                            </div>
+                            <div class="name">
+                              <a href="#">Fumari Tutti Fruitti 100g</a>
+                            </div>
+                            <div class="price">
+                              240.00
+                            </div>
+                            <div class="cart">
+                              <span style="color: #7accc8; font-size: 16px;">
+                                <span class="outofstock">Нет на складе</span>
+                              </span>
+                            </div>
+                          </div>
+                          <div>
+                            <div class="image">
+                              <a href="#"><img src="images/hook.png" alt="Hookafina bahama mama 250g"></a>
+                              <div class="about"> images4 </div>
+                            </div>
+                            <div class="name">
+                              <a href="#">Hookafina bahama mama 250g</a>
+                            </div>
+                            <div class="price">
+                              450.00
+                            </div>
+                            <div class="cart">
+                              <input type="button" value="Купить" onclick="addToCart('310');" class="button">
+                            </div>
+                          </div>
+                          <div>
+                            <div class="image">
+                              <a href="#"><img src="images/khalil.png" alt="Khalil Mamoon Californian Dreams 250g."></a>
+                              <div class="about"> images5 </div>
+                            </div>
+                            <div class="name">
+                              <a href="#">Khalil Mamoon Californian Dreams 250g.</a>
+                            </div>
+                            <div class="price">
+                              450.00
+                            </div>
+                            <div class="cart">
+                              <input type="button" value="Купить" onclick="addTocar('310');" class="button">
+                            </div>
+                          </div>
+                          <div>
+                            <div class="image">
+                              <a href=""><img src="images/amygold.png" alt="Ammy Cosmopolitan 250g."></a>
+                              <div class="about"> images6 </div>
+                            </div>
+                            <div class="name">
+                              <a href="#">Ammy Cosmopolitan 250g.</a>
+                            </div>
+                            <div class="price">
+                              450.00
+                            </div>
+                            <div class="cart">
+                              <input type="button" value="Купить" onclick="addToCard('310');" class="button">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>  
+                </div>
+                <div class="box_two">
+                  <div class="store_two">
+                    <div class="store_hat">
+                      <ul>
+                        <li><h2>Новые поступления</h2></li>
+                      </ul>
+                    </div>
+                    <div class="box-content_two">
+                      <div class="box-product">
+                        <div>
+                          <div class="image">
+                            <a href="#"><img src="images/adalya.png" alt="Adalya crazy lemon 50g"></a>
+                            <div class="about"> images1 </div>
+                          </div>
+                          <div class="name">
+                            <a href="#">Adalya crazy lemon 50g</a>
+                          </div>  
+                          <div class="price">
+                            420.00
+                          </div>
+                          <div class="cart">
+                            <input type="button" value="Купить" onclick="addToCard('310');"
+                            class="button">
+                          </div>
+                        </div>
+                        <div>
+                          <div class="image">
+                            <a href="#"><img src="images/ammygold.png" alt="Ammy Gold maestro 250g."></a>
+                            <div class="about"> images2 </div>
+                          </div>
+                          <div class="name">
+                            <a href="#">Ammy Gold maestro 250g.</a>
+                          </div>
+                          <div class="price">
+                            240.00
+                          </div>
+                          <div class="cart">
+                            <input type="button" value="Купить" onclick="addToCard('310');" class="button">
+                          </div>
+                        </div>
+                        <div>
+                          <div class="image">
+                            <a href="#"><img src="images/ammygoldred.png" alt="Ammy Gold Red margarita 250g."></a>
+                            <div class="about"> images3 </div>
+                          </div>
+                          <div class="name">
+                            <a href="#">Ammy Gold Red margarita 250g.</a>
+                          </div>
+                          <div class="price">
+                            320.00
+                          </div>
+                          <div class="cart">
+                            <span style="color: #7accc8; font-size: 16px;">
+                              <span class="outofstock">Нет на складе</span>
+                            </span>  
+                          </div>
+                        </div>
+                        <div>
+                          <div class="image">
+                            <a href="#"><img src="images/ammysweet.png" alt="Ammy Gold Sweet harmony 250g."></a>
+                            <div class="about"> images4 </div>
+                          </div>
+                          <div class="name">
+                            <a href="#">Ammy Gold Sweet harmony 250g.</a>
+                          </div>
+                          <div class="price">
+                            570.00
+                          </div>
+                          <div class="cart">
+                            <input type="button" value="Купить" onclick="addToCard('310');"; class="button">
+                          </div>
+                        </div>
+                        <div>
+                          <div class="image">
+                            <a href="#"><img src="images/ammylemon.png" alt="Ammy Gold Lemon touch 250g."></a>
+                            <div class="about"> images5 </div>
+                          </div>
+                          <div class="name">
+                            <a href="#">Ammy Gold Lemon touch 250g.</a>
+                          </div>
+                          <div class="price">
+                            380.00
+                          </div>
+                          <div class="cart">
+                            <span style="color: #7accc8; font-size: 16px;">
+                              <span class="outofstock">Нет на складе</span>
+                            </span>
+                          </div>
+                        </div>
+                        <div>
+                          <div class="image">
+                            <a href="#"><img src="images/ammysweety.png" alt="Ammy Gold Sweety 250g."></a>
+                            <div class="about"> images6 </div>
+                          </div>
+                          <div class="name">
+                            <a href="#">Ammy Gold Sweety 250g.</a>
+                          </div>
+                          <div class="price">
+                            280.00
+                          </div>
+                          <div class="cart">
+                            <input type="button" value="Купить" onclick="addToCard('310');" class="button">
+                          </div>
+                        </div>
+                        <div>
+                          <div class="image">
+                            <a href="#"><img src="images/ammyyoung.png" alt="Ammy Young Cantaloupe 250g."></a>
+                            <div class="about"> images7 </div>
+                          </div>
+                          <div class="name">
+                            <a href="#">Ammy Young Cantaloupe 250g.</a>
+                          </div>
+                          <div class="price">
+                            320.00
+                          </div>
+                          <div class="cart">
+                            <input type="button" value="Купить" onclick="addToCard('310');"
+                            class="button">
+                          </div>
+                        </div>
+                        <div>
+                          <div class="image">
+                            <a href="#"><img src="images/ammyzuri.png" alt="Ammy Gold ZURI 250g."></a>
+                            <div class="about"> images8 </div>
+                          </div>
+                          <div class="name">
+                            <a href="#">Ammy Gold ZURI 250g.</a>
+                          </div>
+                          <div class="price">
+                            420.00
+                          </div>
+                          <div class="cart">
+                            <input type="button" value="Купить" onclick="addToCard('310');" class="button">
+                          </div>
+                        </div>
+                        <div>
+                          <div class="image">
+                            <a href="#"><img src="images/ammybeach.png" alt="Ammy Gold Sex on the beach 250g."></a>
+                            <div class="about"> images9 </div>
+                          </div>
+                          <div class="name">
+                            <a href="#">Ammy Gold Sex on the beach 250g.</a>
+                          </div>
+                          <div class="price">
+                            470.00
+                          </div>
+                          <div class="cart">
+                            <input type="button" value="Купить" onclick="addToCard('310');" class="button">
+                          </div>
+                        </div>
+                        <div>
+                          <div class="image">
+                            <a href="#"><img src="images/ammyspirit.png" alt="Ammy Gold Spirit 250g."></a>
+                            <div class="about"> images10 </div>
+                          </div>
+                          <div class="name">
+                            <a href="#">Ammy Gold Spirit 250g.</a>
+                          </div>
+                          <div class="price">
+                            340.00
+                          </div>
+                          <div class="cart">
+                            <span style="color: #7accc8; font-size: 16px;">
+                              <span class="outofstock">Нет на складе</span>
+                            </span>
+                          </div>
+                        </div>
+                        <div>
+                          <div class="image">
+                            <a href="#"><img src="images/ammyfrozen.png" alt="Ammy Gold Frozen sweet melon 250g."></a>
+                            <div class="about"> images11 </div>
+                          </div>
+                          <div class="name">
+                            <a href="#">Ammy Gold Frozen sweet melon 250g.</a>
+                          </div>
+                          <div class="price">
+                            220.00
+                          </div>
+                          <div class="cart">
+                            <input type="button" value="Купить" onclick="addToCard('310');" class="button">
+                          </div>
+                        </div>
+                        <div>
+                          <div class="image">
+                            <a href="#"><img src="images/ammymodern.png" alt="Ammy Gold Modern dream 250g."></a>
+                            <div class="about"> images12 </div>
+                          </div>
+                          <div class="name">
+                            <a href="#">Ammy Gold Modern dream 250g.</a>
+                          </div>
+                          <div class="price">
+                            400.00
+                          </div>
+                          <div class="cart">
+                            <input type="button" value="Купить" onclick="addToCard('310');" class="button">
+                          </div>
+                        </div>  
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Реклама -->
+                <div id="carouse">
+                  <div class="jskin">
+                    <div class="jcont">
+                      <div class="position-jcont">
+                        <ul style="overflow: hidden; positoin: relative; top: 0px; margin: 0px; padding: 0px; left: 0px; ">
+                          <li style="float: left; list-style: none; width: 80px; cursor: pointer; margin-right: 90px; border: 1px solid #c2c2c2; background: #fff;"><a href="#"><img src="images/alfak.png"></a></li>
+                          <li style="float: left; list-style: none; width: 80px; cursor: pointer; margin-right: 90px; border: 1px solid #c2c2c2; background: #fff;"><a href="#"><img src="images/ip.png"></a></li>
+                          <li style="float: left; list-style: none; width: 80px; cursor: pointer; margin-right: 90px; border: 1px solid #c2c2c2; background: #fff;"><a href="#"><img src="images/coco.png"></a></li>
+                          <li style="float: left; list-style: none; width: 80px; cursor: pointer; margin-right: 90px; border: 1px solid #c2c2c2; background: #fff;"><a href="#"><img src="images/smoke.png"></a></li>
+                          <li style="float: left; list-style: none; width: 80px; cursor: pointer; margin-right: 90px; border: 1px solid #c2c2c2; background: #fff;"><a href="#"><img src="images/shiazo.png"></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Доп.информация -->
+                <div id="footer">
+                  <div class="column">
+                    <h3>Информация</h3>
+                    <ul>
+                      <li><a href="#">О нас</a></li>
+                      <li><a href="#">Наши контакты</a></li>
+                      <li><a href="#">Все права защищены. Copyright © Tornado Hookah Shop 2014</a></li>
+                    </ul>
+                  </div>
+                </div>
+          	</div>
+            <div class="clr"></div>
+          </div>
+    </body>
+</html>
+
